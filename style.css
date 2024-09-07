@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+
+body{
+
+    background: #1e1e1e;
+    color: #171717;
+}
+
+.container{
+    background-color: #fff;
+    color: #171717;
+    padding: 2rem;
+    width: 40%;
+    margin: 4rem auto;
+    border-radius: 10px;
+}
+
+.weather_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+input{
+    border: none;
+    background: #1e1e1e;
+    color: #fff;
+    outline: none;
+    padding: 0.5rem 2.5rem;
+    border-radius: 5px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+}
+input::placeholder{
+    color: #f7f7f7;
+}
+.weather_search{
+    position: relative;
+}
+
+.weather_search i {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    font-size: 15px;
+    color: #fff;
+
+}
+.weather_body{
+    padding-top: 20px;
+    text-align: center;
+
+}
+.weather_forecast{
+    background-color: #1e1e1e;
+    color: white;
+    padding: 1px 5px;
+    border-radius: 10px;
+}
+
+.weather_data{
+    padding: 20px 0;
+}
+.weather_minmax{
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+}
+.weather_temperature{
+    font-size: 40px;
+}
+.weather_info{
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15px;
+    
+}
+.weather_card{
+    display: flex;
+    gap: 10px;
+    position: relative;
+    
+}
+
+.weather_card i{
+    margin-top: 5px;
+    
+    
+}
